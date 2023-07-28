@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\c# learning\BurgerHut\bin\Debug\net7.0\BurgerHut.exe
+C:\Users\Admin\Documents\c# learning\BurgerHut\bin\Debug\net7.0\BurgerHut.deps.json
+C:\Users\Admin\Documents\c# learning\BurgerHut\bin\Debug\net7.0\BurgerHut.runtimeconfig.json
+C:\Users\Admin\Documents\c# learning\BurgerHut\bin\Debug\net7.0\BurgerHut.dll
+C:\Users\Admin\Documents\c# learning\BurgerHut\bin\Debug\net7.0\BurgerHut.pdb
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.AssemblyInfo.cs
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.dll
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\refint\BurgerHut.dll
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.pdb
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\BurgerHut.genruntimeconfig.cache
+C:\Users\Admin\Documents\c# learning\BurgerHut\obj\Debug\net7.0\ref\BurgerHut.dll
