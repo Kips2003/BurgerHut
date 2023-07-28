@@ -61,7 +61,7 @@ namespace Burger{
 //////////////////////////////////////////////////
             System.Console.WriteLine("******* Building Burger *******");
 
-            bool cheese;
+            bool cheese = true;
 
             System.Console.WriteLine("Cheese?\n1.Yes\n2.No\n(press the number)");
             while(pickedNumber != '1' && pickedNumber != '2'){
@@ -82,7 +82,7 @@ namespace Burger{
             pickedNumber = '0';
             System.Console.WriteLine("******* Building Burger *******");
 
-            bool pickle;
+            bool pickle = true;
 
             System.Console.WriteLine("Pickle?\n1.Yes\n2.No\n(press the number)");
             while(pickedNumber != '1' && pickedNumber != '2'){
@@ -101,7 +101,7 @@ namespace Burger{
 
 //////////////////////////////////////////////////////////////////////
             pickedNumber = '0';
-            int MeetInInt;
+            int MeetInInt = -1;
             System.Console.WriteLine("******* Building Burger *******");
 
             System.Console.WriteLine("Which kind of Meet?\n1.Chicken\n2.Beed\n3.None\n(press the number)"); 
@@ -120,7 +120,7 @@ namespace Burger{
 
 /////////////////////////////////////////////////////////////////////////////////
             pickedNumber = '0';
-            int SauceInInt;
+            int SauceInInt = -1;
             System.Console.WriteLine("******* Building Burger *******");
 
             System.Console.WriteLine("Which kind of Sauce?\n1.Hot Sauce\n2.Sweet Sauce\n3.Special Sauce\n4.None\n(press the number)"); 
@@ -137,9 +137,8 @@ namespace Burger{
             }
             Console.Clear();
 ////////////////////////////////////////////////////////////////////////////////////////
-            Burger burger = new Burger(cheese,pickle,MeetInInt,SauceInInt);
-            System.Console.WriteLine(burger.ToString);
-
+            Burger burger = new Burger(cheese, pickle, MeetInInt, SauceInInt);
+            System.Console.WriteLine(burger.ToString());
         
         }
     }
