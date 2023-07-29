@@ -10,16 +10,14 @@ namespace Burger{
         public Burger(bool cheese, bool pickle, int num1, int num2){
             this.cheese = cheese;
             this.pickle = pickle;
-            Meet meet1 = (Meet)num1;
-            Sauce sauce1 = (Sauce)num2;
+            Meet meet1 = (Meet)num1-48;
+            Sauce sauce1 = (Sauce)num2-48;
             meet = meet1.ToString();
             sauce = sauce1.ToString();
         }
 
         string Cheese;
         string Pickle;
-        string Meet;
-        string Sauce;
 
         void CheeseToString(){
             if(cheese)Cheese = ", Cheese";
@@ -32,15 +30,15 @@ namespace Burger{
         }
          void MeetToString(){
              if(meet == "None"){
-                 Meet = null;
+                 meet = null;
              }
-             else Meet = ", "+meet;
+             else meet = ", "+meet;
          }
          void SauceToString(){
              if(sauce == "None"){
-                 Sauce = null;
+                 sauce = null;
              }
-             else Sauce = ", "+sauce;
+             else sauce = ", "+sauce;
          }
 
         public virtual string ToString(){
@@ -51,7 +49,7 @@ namespace Burger{
             return String.Format(
                 "Your order:\n"+
                 "Buns, Lattuce{0}{1}{2}{3}",
-                Cheese, Pickle, Meet, Sauce
+                Cheese, Pickle, meet, sauce
             );
         }
     }
